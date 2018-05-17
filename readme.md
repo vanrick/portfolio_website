@@ -1,0 +1,1 @@
+Ricks 2018 portfolio/blogging website
