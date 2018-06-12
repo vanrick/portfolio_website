@@ -3,20 +3,21 @@
  /* -----------------------------------------Basic Setup------------------------------------- */
  /* ----------------------------------------------------------------------------------------- */
  
- .wrapper {
-     display: grid;
-     /* grid-template-columns: 1fr 2fr 1fr; */
-     grid-auto-rows: minmax(100px, auto);
-     grid-gap: 1em;
-     justify-items: center;
-     align-items: center;
- }
- 
  * {
      margin: 0;
      padding: 0;
      -webkit-box-sizing: border-box;
      box-sizing: border-box;
+ }
+ 
+ .grid {
+     display: grid;
+     grid-template-columns: 1fr 500px 500px 1fr;
+     grid-template-rows: 1fr 1fr 1fr 1fr;
+     grid-auto-rows: minmax(100px, auto);
+     grid-gap: 1em;
+     justify-items: center;
+     align-items: center;
  }
  
  html,
@@ -139,6 +140,10 @@
  /* -----------------------------------------Header------------------------------------------ */
  /* ----------------------------------------------------------------------------------------- */
  
+ .header-template-areas {
+     grid-template-areas: ". hero-text-box profile-picture-box .";
+ }
+ 
  header {
      background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.712)), to(rgba(0, 0, 0, 0.699))), url(img/hero.jpg);
      background-image: linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.699)), url(img/hero.png);
@@ -151,21 +156,16 @@
  .profile-pic {
      height: 300px;
      width: 300px;
+     border-radius: 2em;
  }
  
  .profile-picture-box {
-     grid-column: 1/2;
+     grid-area: profile-picture-box;
+     align-content: center;
  }
  
  .hero-text-box {
-     grid-column: 2/2;
-     grid-row: 1/1;
-     /* position: absolute;
-     width: 720px;
-     top: 50%;
-     left: 50%;
-     -webkit-transform: translate(-50%, -50%);
-     transform: translate(-50%, -50%); */
+     grid-area: hero-text-box;
  }
  
  .logo {
