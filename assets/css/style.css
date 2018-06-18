@@ -196,18 +196,21 @@
  /* --------------------------buttons -------------------------------------- */
  
  .btn:link,
- .btn:visited {
+ .btn:visited,
+ input[type=submit] {
      display: inline-block;
      padding: 10px 25px;
      font-weight: 700;
      text-decoration: none;
      border-radius: 5px;
      transition: background-color 0.2s, border 0.2s, color 0.2s;
+     cursor: pointer;
  }
  
  .btn-full:link,
- .btn-full:visited {
-     background-color: #eee;
+ .btn-full:visited,
+ input[type=submit] {
+     background-color: #515463;
      border: solid 1px #eee;
      -webkit-text-stroke-width: .01em;
      -webkit-text-stroke-color: black;
@@ -224,8 +227,9 @@
  }
  
  .btn:hover,
- .btn:active {
-     background-color: #eee;
+ .btn:active,
+ input[type=submit] {
+     background-color: #515463;
  }
  
  .btn-full:hover,
@@ -482,12 +486,12 @@
      color: #3b5998;
  }
  
- .ion-social-twitter:hover {
-     color: #00aced;
+ .ion-social-github:hover {
+     color: #f5f5f5;
  }
  
- .ion-social-googleplus:hover {
-     color: #dd4b39;
+ .ion-social-linkedin:hover {
+     color: #0077b5;
  }
  
  .ion-social-instagram:hover {
