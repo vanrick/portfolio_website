@@ -142,6 +142,16 @@
  /* ------------------------------------------------------------------------------------------ */
  /* -----------------------------------------about-------------------------------------------- */
  /* ------------------------------------------------------------------------------------------ */
+ 
+ .section-about {
+     margin: auto;
+     /* text-align: center; */
+     align-items: center;
+ }
+ 
+ .section-about .btn {
+     text-align: center;
+ }
  /* ----------------------------------------------------------------------------------------- */
  /* -----------------------------------------Header------------------------------------------ */
  /* ----------------------------------------------------------------------------------------- */
@@ -228,8 +238,9 @@
  
  .btn:hover,
  .btn:active,
- input[type=submit] {
-     background-color: #515463;
+ input[type=submit]:hover,
+ input[type=submit]:active {
+     background-color: #484b59;
  }
  
  .btn-full:hover,
@@ -475,8 +486,8 @@
  }
  
  .ion-social-facebook,
- .ion-social-twitter,
- .ion-social-googleplus,
+ .ion-social-github,
+ .ion-social-linkedin,
  .ion-social-instagram {
      -webkit-transition: color .5s;
      transition: color .5s;
