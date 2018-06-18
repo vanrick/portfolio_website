@@ -365,3 +365,136 @@
  /* ------------------------------------------------------------------------------------------ */
  /* -----------------------------------------contact------------------------------------------ */
  /* ------------------------------------------------------------------------------------------ */
+ 
+ .contact-form {
+     width: 90%;
+     margin: 0 auto;
+ }
+ 
+ input[type=text],
+ input[type=email],
+ select,
+ textarea {
+     width: 100%;
+     padding: 7px;
+     border-radius: 4px;
+     border: 1px solid #555;
+ }
+ 
+ textarea {
+     height: 100px;
+ }
+ 
+ input[type=checkbox] {
+     margin: 10px 5px 10px 0;
+ }
+ 
+ *:focus {
+     outline: none
+ }
+ 
+ .map-box {
+     width: 100%;
+     height: 560px;
+     position: relative;
+ }
+ 
+ .map {
+     width: 100%;
+     height: 560px;
+     position: relative;
+     z-index: 0;
+ }
+ 
+ .form-box {
+     position: absolute;
+     top: 0;
+     right: 0;
+     width: 50%;
+     background-color: rgba(255, 255, 255, 0.815);
+     z-index: 10;
+     height: 560px;
+     padding-top: 40px;
+ }
+ /* ------------------------------------------------------------------------------------------ */
+ /* -----------------------------------------footer------------------------------------------- */
+ /* ------------------------------------------------------------------------------------------ */
+ 
+ footer {
+     background-color: #333;
+     padding: 50px;
+     font-size: 80%;
+ }
+ 
+ footer p {
+     color: #888;
+     text-align: center;
+     font-size: 90%;
+     margin-top: 20px;
+ }
+ 
+ .footer-nav {
+     list-style: none;
+     float: left;
+ }
+ 
+ .social-links {
+     list-style: none;
+     float: right;
+ }
+ 
+ .footer-nav li,
+ .social-links li {
+     display: inline-block;
+     margin-right: 20px;
+ }
+ 
+ .footer-nav li:last-child,
+ .social-links li:last-child {
+     margin-right: 0;
+ }
+ 
+ .footer-nav li a:link,
+ .footer-nav li a:visited,
+ .social-links li a:link,
+ .social-links li a:visited {
+     text-decoration: none;
+     border: 0;
+     color: #888;
+     -webkit-transition: color 0.5s;
+     transition: color 0.5s;
+ }
+ 
+ .footer-nav li a:hover,
+ .footer-nav li a:active {
+     color: #e8e8e8;
+ }
+ 
+ .ion-social-facebook,
+ .ion-social-twitter,
+ .ion-social-googleplus,
+ .ion-social-instagram {
+     -webkit-transition: color .5s;
+     transition: color .5s;
+ }
+ 
+ .ion-social-facebook:hover {
+     color: #3b5998;
+ }
+ 
+ .ion-social-twitter:hover {
+     color: #00aced;
+ }
+ 
+ .ion-social-googleplus:hover {
+     color: #dd4b39;
+ }
+ 
+ .ion-social-instagram:hover {
+     color: #517fa4;
+ }
+ 
+ .social-links li a:link,
+ .social-links li a:visited {
+     font-size: 160%;
+ }
