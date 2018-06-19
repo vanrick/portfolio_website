@@ -293,6 +293,17 @@
      border-bottom: 2px solid #C6FD34;
  }
  /* ------------------------------------------------------------------------------------------ */
+ /* -----------------------------------------skills------------------------------------------- */
+ /* ------------------------------------------------------------------------------------------ */
+ 
+ .section-skills {
+     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(img/secondary-hero.jpg);
+     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/secondary-hero.jpg);
+     background-size: cover;
+     color: white;
+     background-attachment: fixed;
+ }
+ /* ------------------------------------------------------------------------------------------ */
  /* -----------------------------------------sticky navigation-------------------------------- */
  /* ------------------------------------------------------------------------------------------ */
  /* ------------------------------------------------------------------------------------------ */
@@ -349,7 +360,17 @@
  
  .section-blogs {
      background-color: #fdfdfd;
-     height: 60vh;
+     margin: auto;
+ }
+ 
+ .blog-card1 {
+     /* width: 50%; */
+     margin-left: 35%;
+ }
+ 
+ .blog-card2 {
+     /* width: 50%; */
+     margin-right: 30%;
  }
  
  .blog-box {
@@ -374,11 +395,21 @@
  .blog-box:last-child {
      padding-left: 3%;
  }
- /* .blog-box:first-child h3 {
-     float: left;
+ 
+ .blog-card1,
+ .blog-card2 {
+     text-align: justify;
+     border: 1px solid #484b59;
+     height: 78vh;
+     width: 28vw;
+     border-radius: 5px;
  }
-  */
- /* .blog-box:first-child p {} */
+ 
+ .blog-picture {
+     height: 30vh;
+     width: 100%;
+     background-color: #484b59;
+ }
  /* ------------------------------------------------------------------------------------------ */
  /* -----------------------------------------contact------------------------------------------ */
  /* ------------------------------------------------------------------------------------------ */

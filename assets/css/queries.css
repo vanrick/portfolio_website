@@ -30,6 +30,23 @@
         width: 80%;
         margin-left: 10%;
     }
+    .blog-card1 {
+        /* width: 50%; */
+        margin-left: 20%;
+    }
+    .blog-card2 {
+        /* width: 50%; */
+        margin-right: 10%;
+    }
+    .blog-card1,
+    .blog-card2 {
+        height: 50vh;
+        width: 80%;
+    }
+    .blog-picture {
+        height: 18vh;
+        background-color: #484b59;
+    }
 }
 
 
