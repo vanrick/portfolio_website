@@ -173,6 +173,8 @@
  .profile-pic {
      border-radius: .6em;
      background-image: linear-gradient(rgba(0, 0, 0, 0.899), rgba(0, 0, 0, 0.750));
+     width: 185px;
+     margin: 1%;
  }
  /* .profile-picture-box {
      grid-area: profile-picture-box;
@@ -222,7 +224,7 @@
  .btn-full:visited,
  input[type=submit] {
      background-color: #515463;
-     border: solid 1px #eee;
+     /* border: solid 1px #eee; */
      -webkit-text-stroke-width: .01em;
      -webkit-text-stroke-color: black;
      color: #C6FD34;
@@ -230,7 +232,7 @@
  
  .btn-ghost:link,
  .btn-ghost:visited {
-     border: 1px solid #eee;
+     /* border: 1px solid #eee; */
      -webkit-text-stroke-width: .01em;
      -webkit-text-stroke-color: black;
      color: #C6FD34;
@@ -246,12 +248,12 @@
  
  .btn-full:hover,
  .btn-full:active {
-     border: 1px solid #eee;
+     /* border: 1px solid #eee; */
  }
  
  .btn-ghost:hover,
  .btn-ghost:active {
-     border: 1px solid #eee;
+     /* border: 1px solid #eee; */
      color: #C6FD34;
  }
  /* ------------------------------------------------------------------------------------------ */
@@ -309,9 +311,24 @@
      margin-top: 5%;
      margin-bottom: 5%;
  }
+ /* .skills-copy {
+     width: 60%;
+ } */
  
- .skills-copy {
-     width: 50%;
+ .skills-list {
+     list-style: none;
+ }
+ 
+ .skills-copy-box {
+     /* border: 1px solid white; */
+     width: 70%;
+     margin-left: 15%;
+ }
+ 
+ .skills-list-box {
+     width: 55%;
+     margin-left: 23%;
+     margin-right: 15%;
  }
  /* ------------------------------------------------------------------------------------------ */
  /* -----------------------------------------sticky navigation-------------------------------- */
@@ -328,25 +345,25 @@
      background-color: #f4f4f4;
  }
  
- .meals-showcase {
+ .projects-showcase {
      list-style: none;
      width: 100%;
  }
  
- .meals-showcase li {
+ .projects-showcase li {
      display: block;
      float: left;
      width: 25%;
  }
  
- .meal-photo {
+ .project-photo {
      width: 100%;
      margin: 0;
      overflow: hidden;
      background-color: black;
  }
  
- .meal-photo img {
+ .project-photo img {
      opacity: .7;
      width: 95%;
      height: auto;
@@ -358,11 +375,15 @@
      transition: transform .09s, opacity .09s, -webkit-transform .09s;
  }
  
- .meal-photo img:hover {
+ .project-photo img:hover {
      opacity: 1;
      -webkit-transform: scale(1.03);
      transform: scale(1.03);
      cursor: pointer;
+ }
+ 
+ .gif {
+     /* margin-top: 15%; */
  }
  /* ------------------------------------------------------------------------------------------ */
  /* -----------------------------------------blogs-------------------------------------------- */

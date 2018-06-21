@@ -11,6 +11,22 @@
     .contact-form {
         width: 90%;
     }
+    /* .blog-picture {
+        height: 18vh;
+    }
+    .blog-card1,
+    .blog-card2 {
+        height: 45vh;
+        width: 80%;
+    }
+    .blog-card1 {
+        width: 50%; 
+        margin-left: 20%;
+    }
+    .blog-card2 {
+         width: 50%; 
+        margin-right: 10%;
+    }  */
 }
 
 
@@ -31,11 +47,9 @@
         margin-left: 10%;
     }
     .blog-card1 {
-        /* width: 50%; */
         margin-left: 20%;
     }
     .blog-card2 {
-        /* width: 50%; */
         margin-right: 10%;
     }
     .blog-card1,
@@ -47,6 +61,9 @@
         height: 18vh;
         background-color: #484b59;
     }
+    /* .form-box {
+        width: 80%;
+    } */
 }
 
 
