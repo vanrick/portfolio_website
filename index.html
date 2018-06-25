@@ -30,7 +30,7 @@
 <body>
 
     <header>
-        <nav>
+        <nav class="sticky">
             <div class="row">
                 <img src="assets/images/white-r.png" alt="Ricks Logo" class="logo">
                 <img src="assets/images/black-r.png" alt="Ricks Logo" class="logo-black">
@@ -52,7 +52,6 @@
                         <a href="#contact">Contact</a>
                     </li>
                 </ul>
-                <!-- <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a> -->
             </div>
         </nav>
         <div class='grid header-template-areas'>
@@ -62,12 +61,12 @@
                     <br>Full-Stack Web Applications Developer
                     <br>Denver, CO
                 </h1>
-                <a class='btn btn-full js--scroll-to-start' href="#">Show me more</a>
-                <a class='btn btn-ghost js--scroll-to-start' href="#">Drop a line</a>
+                <a class='btn btn-full js--scroll-to-projects' href="#">Show me more</a>
+                <a class='btn btn-ghost js--scroll-to-contact' href="#">Drop a line</a>
             </div>
         </div>
     </header>
-    <section class="section-about">
+    <section class="section-about js--section-about" id="about">
         <div class="row">
             <h2>About</h2>
             <div class="col span-1-of-1">
@@ -79,11 +78,11 @@
                 </p>
             </div>
             <div style="text-align:center;">
-                <a class='btn btn-full js--scroll-to-start btn-resume' href="#" alt="resume">Resume</a>
+                <a class='btn btn-full js--scroll-to-start btn-resume' href="/assets/images/documentation/Ricks_Resume_FS.pdf" target='_blank' alt="resume">Resume</a>
             </div>
         </div>
     </section>
-    <section class="section-skills">
+    <section class="section-skills" id="skills">
         <div class="row">
             <h2>Skills</h2>
         </div>
@@ -124,11 +123,11 @@
                 </div>
             </div>
             <div style="text-align:center;">
-                <a class='btn btn-full js--scroll-to-start btn-resume' href="#" alt="resume">Contact Me</a>
+                <a class='btn btn-full js--scroll-to-contact' href="#" alt="resume">Contact Me</a>
             </div>
         </div>
     </section>
-    <section class='section-projects'>
+    <section class='section-projects js--section-projects' id="projects">
         <div class="row">
             <h2>Projects</h2>
         </div>
@@ -199,7 +198,7 @@
         </ul>
 
     </section>
-    <section class="section-blogs">
+    <section class="section-blogs" id="blogs">
         <div class="row">
             <h2>Blogs</h2>
         </div>
@@ -227,7 +226,7 @@
             </div>
         </div>
     </section>
-    <section class="section-contact">
+    <section class="section-contact js--section-contact" id="contact">
         <div class="section-form map-box">
             <div class="map"></div>
             <div class="form-box">
