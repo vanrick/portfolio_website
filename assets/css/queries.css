@@ -54,22 +54,129 @@
     }
     .blog-card1,
     .blog-card2 {
-        height: 50vh;
+        height: 65vh;
         width: 80%;
     }
     .blog-picture {
         height: 18vh;
-        background-color: #484b59;
     }
     /* .form-box {
         width: 80%;
     } */
+    .profile-pic {
+        width: 140px;
+    }
+    .skills-copy-box {
+        width: 80%;
+    }
 }
 
 
 /* Small phones to small tablets: 481px to 767px*/
 
-@media only screen and (max-width: 767px) {}
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 16px;
+    }
+    .hero-text-box {
+        font-size: 63%;
+    }
+    .logo {
+        width: 10%;
+        min-width: 20%;
+        height: 2%;
+    }
+    section {
+        padding: 30px 0;
+    }
+    .row,
+    .hero-text-box {
+        padding: 0 4%;
+    }
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    .main-nav {
+        display: none;
+    }
+    .main-nav {
+        float: left;
+        margin: 35px 0 0 25px;
+    }
+    .main-nav li {
+        display: block;
+    }
+    .main-nav a:link,
+    .main-nav a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    .long-copy {
+        line-height: 130%;
+        width: 100%;
+        margin-left: 0%;
+    }
+    .skills-copy-box {
+        width: 100%;
+        margin: 0;
+    }
+    .skills-list-box {
+        margin-left: 35%;
+        margin-right: 0;
+        width: 100%;
+    }
+    .blog-card1 {
+        margin-left: 10%;
+    }
+    .blog-card2 {
+        margin-right: 0;
+        margin-left: 10%;
+    }
+    .blog-card1,
+    .blog-card2 {
+        height: 65vh;
+        width: 80%;
+    }
+    .blog-picture {
+        height: 18vh;
+        et
+    }
+    .blog-box:first-child {
+        padding-right: 0%;
+        margin: 0 0 0 0;
+    }
+    .blog-box:last-child {
+        padding-left: 0%;
+    }
+    .blog-box:first-child h3 {
+        margin-top: 5%;
+        margin-right: 10%;
+    }
+    .blog-box:last-child h3 {
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+    .map-box {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .map {
+        width: 100%;
+        height: 300px;
+        position: relative;
+        z-index: 0;
+    }
+    .form-box {
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding: 30px 0;
+    }
+}
 
 
 /* Small phones: 0 to 480px*/
