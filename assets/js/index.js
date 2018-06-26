@@ -1,7 +1,6 @@
 $(document).ready(function() {
     //sticky navigation
-
-    $('.js--section-about ').waypoint(function(direction) {
+    $('.js--section-about').waypoint(function(direction) {
         if (direction == 'down') {
             $('nav').addClass('sticky');
         } else {
@@ -10,16 +9,7 @@ $(document).ready(function() {
     }, {
         offset: '50px;'
     });
-    // gif hover start
-    $(".gif").hover(
-        function() {
-            var src = $(this).attr("src");
-            $(this).attr("src", src.replace(/\.png$/i, ".gif"));
-        },
-        function() {
-            var src = $(this).attr("src");
-            $(this).attr("src", src.replace(/\.gif$/i, ".png"));
-        });
+
     // scroll buttons***
     $('.js--scroll-to-projects').click(function() {
         $('html, body').animate({
@@ -106,5 +96,47 @@ $(document).ready(function() {
     }, {
         offset: '50%'
     })
+
+    //  mobile navigation
+    $('.js--nav-icon').click(function() {
+            var nav = $('.js--main-nav');
+            var icon = $('.js--nav-icon i');
+            if (icon.hasClass('ion-navicon-round')) {
+                icon.addClass('ion-close-round');
+                icon.removeClass('ion-navicon-round')
+            } else {
+                icon.addClass('ion-navicon-round');
+                icon.removeClass('ion-close-round');
+            }
+            nav.slideToggle(200);
+        })
+        // gmaps
+    var map = new GMaps({
+        div: '.map',
+        lat: 39.7393292,
+        lng: -104.9,
+        zoom: 12
+    });
+    map.addMarker({
+        lat: 39.7393292,
+        lng: -104.9869956,
+        title: 'Denver, CO',
+        infoWindow: {
+            content: '<p>Our Denver HQ</p>'
+        }
+    })
+
+    // gif hover start
+    $(".gif").hover(
+        function() {
+            var src = $(this).attr("src");
+            $(this).attr("src", src.replace(/\.png$/i, ".gif"));
+        },
+        function() {
+            var src = $(this).attr("src");
+            $(this).attr("src", src.replace(/\.gif$/i, ".png"));
+        });
+
+    //end
 
 })
