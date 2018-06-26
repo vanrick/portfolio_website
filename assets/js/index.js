@@ -1,4 +1,15 @@
 $(document).ready(function() {
+    //sticky navigation
+
+    $('.js--section-about ').waypoint(function(direction) {
+        if (direction == 'down') {
+            $('nav').addClass('sticky');
+        } else {
+            $('nav').removeClass('sticky');
+        }
+    }, {
+        offset: '50px;'
+    });
     // gif hover start
     $(".gif").hover(
         function() {
@@ -9,19 +20,6 @@ $(document).ready(function() {
             var src = $(this).attr("src");
             $(this).attr("src", src.replace(/\.gif$/i, ".png"));
         });
-    //sticky navigation
-
-    $('.js--section-about ').waypoint(function(direction) {
-        if (direction == 'down') {
-            $('nav').addClass('sticky');
-        } else {
-            $('nav').removeClass('sticky');
-        }
-
-    }, {
-
-        offset: '50px'
-    });
     // scroll buttons***
     $('.js--scroll-to-projects').click(function() {
         $('html, body').animate({
@@ -95,6 +93,16 @@ $(document).ready(function() {
     })
     $('.js--wp-5').waypoint(function(direction) {
         $('.js--wp-5').addClass('animated pulse')
+    }, {
+        offset: '50%'
+    })
+    $('.js--wp-6').waypoint(function(direction) {
+        $('.js--wp-6').addClass('animated fadeInUpBig')
+    }, {
+        offset: '50%'
+    })
+    $('.js--wp-7').waypoint(function(direction) {
+        $('.js--wp-7').addClass('animated swing')
     }, {
         offset: '50%'
     })
