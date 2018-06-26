@@ -593,3 +593,19 @@
  .social-links li a:visited {
      font-size: 160%;
  }
+ /* animations */
+ 
+ .js--wp-1 {
+     opacity: 0;
+     -webkit-animation-duration: 1s;
+     animation-duration: 1s;
+ }
+ 
+ .js--wp-4 {
+     -webkit-animation-duration: 1s;
+     animation-duration: 1s;
+ }
+ 
+ .js--wp-1.animated {
+     opacity: 1;
+ }
