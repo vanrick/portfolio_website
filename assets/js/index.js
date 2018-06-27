@@ -1,13 +1,16 @@
 $(document).ready(function() {
-    //sticky navigation
+    //sticky navigations
     $('.js--section-about').waypoint(function(direction) {
+        $('nav').removeClass('sticky');
         if (direction == 'down') {
             $('nav').addClass('sticky');
         } else {
             $('nav').removeClass('sticky');
         }
+
     }, {
-        offset: '50px;'
+
+        offset: '50px'
     });
 
     // scroll buttons***

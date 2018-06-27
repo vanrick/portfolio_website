@@ -184,19 +184,19 @@
  }
  
  .logo {
-     height: 130px;
+     height: 50px;
      width: auto;
      float: left;
-     margin: 2px;
+     /* margin: 2px; */
+     margin-top: 2%;
  }
  
  .logo-black {
      display: none;
-     height: 100px;
+     height: 50px;
      width: auto;
      float: left;
-     margin-left: -2px;
-     margin-top: -22px;
+     margin-top: .5%;
  }
  /* --------------------------buttons -------------------------------------- */
  
@@ -464,6 +464,7 @@
      height: 78vh;
      width: 28vw;
      border-radius: 5px;
+     overflow: hidden;
  }
  
  .blog-picture {
