@@ -155,8 +155,8 @@
  }
  
  header {
-     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.899)), to(rgba(0, 0, 0, 0.750))), url(img/hero.png);
-     background-image: linear-gradient(rgba(0, 0, 0, 0.899), rgba(0, 0, 0, 0.750)), url(img/hero.png);
+     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.899)), to(rgba(0, 0, 0, 0.750))), url(img/hero-min.png);
+     background-image: linear-gradient(rgba(0, 0, 0, 0.899), rgba(0, 0, 0, 0.750)), url(img/hero-min.png);
      height: 100vh;
      background-size: cover;
      background-position: center;
@@ -339,8 +339,8 @@
  /* ------------------------------------------------------------------------------------------ */
  
  .section-skills {
-     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(img/secondary-hero.jpg);
-     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/secondary-hero.jpg);
+     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(img/secondary-hero-min.jpg);
+     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/secondary-hero-min.jpg);
      background-size: cover;
      color: white;
      background-attachment: fixed;

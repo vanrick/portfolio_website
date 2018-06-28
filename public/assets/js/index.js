@@ -1,7 +1,8 @@
 $(document).ready(function() {
+    $('nav').removeClass('sticky');
+
     //sticky navigations
     $('.js--section-about').waypoint(function(direction) {
-        $('nav').removeClass('sticky');
         if (direction == 'down') {
             $('nav').addClass('sticky');
         } else {
