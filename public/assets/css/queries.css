@@ -202,6 +202,17 @@
     section {
         padding: 25px 0;
     }
+    .logo,
+    .logo-black {
+        width: 70px;
+    }
+    .mobile-nav-icon {
+        margin-top: 3%;
+    }
+    .main-nav {
+        margin: 20px;
+        font-size: 83%;
+    }
     h1 {
         font-size: 150%;
     }
