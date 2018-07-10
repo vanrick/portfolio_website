@@ -172,9 +172,12 @@
         margin-top: 5%;
         margin-right: 10%;
     }
-    .blog-box:last-child h3 {
+    #past_blogs {
         margin-top: 5%;
         margin-left: 10%;
+    }
+    .blog-card2 h3 {
+        margin-top: 5%;
     }
     .map-box {
         width: 100%;
