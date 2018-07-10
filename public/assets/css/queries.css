@@ -211,10 +211,18 @@
     }
     .main-nav {
         margin: 20px;
-        font-size: 83%;
     }
-    h1 {
-        font-size: 150%;
+    .long-copy {
+        width: 95%;
+        margin-left: 3%;
+    }
+    .skills-copy-box {
+        width: 95%;
+        margin-left: 3%;
+    }
+    .skills-list-box {
+        margin-left: 28%;
+        margin-right: 0;
     }
     .contact-form {
         width: 100%;
